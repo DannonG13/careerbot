@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>ABOUT SOFTWARE DEVELOPER</pattern>
+        <template>
+            A <b>Software Developer</b> writes and tests code that enables software applications to function.
+            They often work in teams and use programming languages like Java, Python, or C++.
+            Would you like to know about the required skills, typical tools, or job outlook?
+            <br/><br/><b>OPTIONS:</b>
+            <br/>-Required skills for software developer
+            <br/>-Typical tools for software developer
+            <br/>-Job outlook for software developer
+        </template>
+    </category>
+    
+    <category>
+        <pattern>REQUIRED SKILLS FOR SOFTWARE DEVELOPER</pattern>
+        <template>
+            Key skills include problem solving, coding, debugging, version control, and knowledge of algorithms and data structures.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TYPICAL TOOLS FOR SOFTWARE DEVELOPER</pattern>
+        <template>
+            Software Developers frequently use tools like Git, Visual Studio Code, Eclipse, and project management platforms like Jira or GitHub.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JOB OUTLOOK FOR SOFTWARE DEVELOPER</pattern>
+        <template>
+            The demand for software developers is projected to grow much faster than average.
+            It's a high-paying, flexible, and diverse field with opportunities across industries.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE ENGINEER</pattern>
+        <template><srai>ABOUT SOFTWARE DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE DEVELOPER</pattern>
+        <template><srai>ABOUT SOFTWARE DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I WANT TO BE A SOFTWARE DEVELOPER</pattern>
+        <template><srai>ABOUT SOFTWARE DEVELOPER</srai></template>
+    </category>
+    
+      <category>
+        <pattern>I WANT TO BE A SOFTWARE ENGINEER</pattern>
+        <template><srai>ABOUT SOFTWARE DEVELOPER</srai></template>
+    </category>
+    
+</aiml>

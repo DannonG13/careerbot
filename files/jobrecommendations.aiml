@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>I LIKE BUILDING SOFTWARE</pattern>
+	    <template>
+	        Awesome! You might enjoy being a <b>Software Developer.</b>
+	        You'll write code, build applications, and solve problems with tech.
+	        If you would like to know more about this career choice, just say "About Software Developer".
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE CODING</pattern>
+        <template><srai>I LIKE BUILDING SOFTWARE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I ENJOY SOLVING PROBLEMS WITH DATA</pattern>
+        <template>
+            Great! That sounds like a perfect fit for a <b>Data Scientist.</b>
+            This role involves analyzing large datasets, finding patterns, and makind decisions using data.
+            If you would like to explore this career path, just say "About Data Scientist".
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE WORKING WITH DATA</pattern>
+        <template><srai>I ENJOY SOLVING PROBLEMS WITH DATA</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I AM INTERESTED IN DESIGN AND USER EXPERIENCE</pattern>
+        <template>
+            Awesome! You may be well suited for a career as a <b>UX Designer.</b>
+            This job focuses on creating intuitive, user-friendly technology experiences.
+            If you would like to know more just type "About UX Designer".
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I WANT TO MANAGE PROJECTS</pattern>
+        <template>
+            Project Management is a great direction.
+            A <b>Technical Project Manager</b> leads teams, plans sprints, and ensures projects stay on track.
+            To hear more, type "About project manager".
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I ENJOY LEADING TEAMS</pattern>
+        <template><srai>I WANT TO MANAGE PROJECTS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE KEEPING SYSTEMS SECURE</pattern>
+        <template>
+            Sounds like you'd be a great <b>Cybersecurity Analyst!</b>
+            This role involves protecting systems, finding vulnerabilities, and stopping attacks.
+            If you would like to learn more, just say "About Cybersecurity Analyst".
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I AM INTERESTED IN CYBERSECURITY</pattern>
+        <template><srai>I LIKE KEEPING SYSTEMS SECURE</srai></template>
+    </category>
+	
+	<category>
+	    <pattern>TELL ME ABOUT *</pattern>
+	    <template>
+	        <srai>ABOUT <star/></srai>
+	    </template>
+	</category>
+</aiml>

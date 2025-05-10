@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>ABOUT PROJECT MANAGER</pattern>
+	    <template>
+	        A <b>Technical Project Manager</b> oversees software development and IT projects, ensuring they are completed on time and within budget. 
+	        They coordinate teams, manage timelines, and communicate with stakeholders. 
+	        Would you like to know about the required skills, typical tools, or job outlook?
+            <br/><br/><b>OPTIONS:</b>
+            <br/>-Required skills for Project Manager
+            <br/>-Typical tools for Project Manager
+            <br/>-Job outlook for Project Manager
+            </template>
+	</category>
+	
+	<category>
+	    <pattern>REQUIRED SKILLS FOR PROJECT MANAGER</pattern>
+	    <template>
+	        Core skills include leadership, communication, time management, Agile/Scrum knowledge, and technical understanding of the software lifecycle.
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>TYPICAL TOOLS FOR PROJECT MANAGER</pattern>
+        <template>
+            Project Managers commonly use tools like Jira, Trello, Asana, Microsoft Project, and Slack for collaboration.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JOB OUTLOOK FOR PROJECT MANAGER</pattern>
+        <template>
+            The demand for project managers in tech is high, especially in Agile environments. 
+            Organizations value professionals who can bridge communication between technical and business teams. 
+        </template>
+    </category>
+	
+	<category>
+	    <pattern>I WANT TO WORK WITH NETWORKS</pattern>
+	    <template><srai>ABOUT PROJECT MANAGER</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>PROJECT MANAGER</pattern>
+	    <template><srai>ABOUT PROJECT MANAGER</srai></template>
+    </category>
+</aiml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>ABOUT CYBERSECURITY ANALYST</pattern>
+        <template>
+            A <b>Cybersecurity Analyst</b> protects computer systems and networks from cyber threats. 
+            They monitor network traffic, investigate breaches, and implement security measures. 
+            Would you like to know about the required skills, typical tools, or job outlook?
+            <br/><br/><b>OPTIONS:</b>
+            <br/>-Required skills for Cybersecurity Analyst
+            <br/>-Typical tools for Cybersecurity Analyst
+            <br/>-Job outlook for Cybersecurity Analyst
+            </template>
+    </category>    
+    
+    <category>
+        <pattern>REQUIRED SKILLS FOR CYBERSECURITY ANALYST</pattern>
+        <template>
+            Key skills include threat analysis, network security, ethical hacking, risk management, and knowledge of compliance standards.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TYPICAL TOOLS FOR CYBERSECURITY ANALYST</pattern>
+        <template>
+            Cybersecurity professionals use tools like Wireshark, Nessus, Splunk, Metasploit, and antivirus/firewall systems.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JOB OUTLOOK FOR CYBERSECURITY ANALYST</pattern>
+        <template>
+            Cybersecurity is one of the fastest-growing fields in tech. 
+            With increasing cyber threats, demand is strong across government, healthcare, finance, and tech sectors. 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CYBERSECURITY ANALYST</pattern>
+        <template><srai>ABOUT CYBERSECURITY ANALYST</srai></template>
+    </category>
+    
+      <category>
+        <pattern>CYBERSECURITY</pattern>
+        <template><srai>ABOUT CYBERSECURITY ANALYST</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I WANT TO WORK IN SECURITY</pattern>
+        <template><srai>ABOUT CYBERSECURITY ANALYST</srai></template>
+    </category>
+    
+</aiml>

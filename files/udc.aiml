@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I'm not sure I understand. Can you tell me more about your interests or ask about a specific job?</template>
+  </category>
+</aiml>

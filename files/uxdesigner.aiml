@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>ABOUT UX DESIGNER</pattern>
+    <template>
+        A <b>UX Designer</b> focuses on how users interact with a product or service, aiming to improve usability and satisfaction. 
+        Their work often includes research, wireframing, and testing designs with real users. 
+        Would you like to know about the required skills, typical tools, or job outlook?
+            <br/><br/><b>OPTIONS:</b>
+            <br/>-Required skills for UX Designer
+            <br/>-Typical tools for UX Designer
+            <br/>-Job outlook for UX Designer</template>
+    </category>
+    
+    <category>
+        <pattern>REQUIRED SKILLS FOR UX DESIGNER</pattern>
+        <template>
+            Important skills include user research, interaction design, wireframing, prototyping, and strong communication and empathy.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TYPICAL TOOLS FOR UX DESIGNER</pattern>
+        <template>
+            Ux Designer often use Figma, Adobe XD, Sketch, InVision, and tools for user testing like Maze or Optimal Workshop.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JOB OUTLOOK FOR UX DESIGNER</pattern>
+        <template>The UX field continues to grow as companies prioritize user-centered design. 
+        There's strong demand in tech, finance, healthcare, and e-commerce sectors.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>UX DESIGNER</pattern>
+        <template><srai>ABOUT UX DESIGNER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE USER INTERFACES</pattern>
+        <template><srai>ABOUT UX DESIGNER</srai></template>
+    </category>
+</aiml>

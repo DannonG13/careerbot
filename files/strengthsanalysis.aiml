@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>I LIKE TO SOLVE PROBLEMS</pattern>
+	    <template>Problem-solving is a key skill in many fields! Would you say you're more interested in building things, fixing things, or analyzing data?</template>
+	</category>
+	
+	<category>
+	    <pattern>I LIKE WORKING WITH DATA</pattern>
+	    <template><srai>ABOUT DATA ANALYST</srai></template>
+	</category>
+	
+	<category>
+	    <pattern>I ENJOY DESIGNING INTERFACES</pattern>
+	    <template><srai>ABOUT UX DESIGNER</srai></template>
+	</category>
+	
+	<category>
+	    <pattern>I ENJOY CODING</pattern>
+	    <template>Nice! Do you enjoy front-end development, back-end development, or full-stack?</template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE SECURITY</pattern>
+        <template><srai>ABOUT CYBERSECURITY ANALYST</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE FIXING COMPUTERS</pattern>
+        <template><srai>ABOUT SYSTEMS ADMINISTRATOR</srai></template>
+    </category>
+</aiml>

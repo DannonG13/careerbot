@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>ABOUT DATA SCIENTIST</pattern>
+	    <template>
+	        A <b>Data Scientist</b> uses statistics, machine learning, and programming to extract insights from data.
+	        They help organizations make informed decisions.
+	         Would you like to know about the required skills, typical tools, or job outlook?
+            <br/><br/><b>OPTIONS:</b>
+            <br/>-Required skills for Data Scientist
+            <br/>-Typical tools for Data Scientist
+            <br/>-Job outlook for Data Scientist
+	        </template>
+	</category>
+	
+	<category>
+	    <pattern>REQUIRED SKILLS FOR DATA SCIENTIST</pattern>
+	    <template>
+	        Key skills include data analysis, statistics, machine learning, data visualization, and proficiency in Python or R.
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>TYPICAL TOOLS FOR DATA SCIENTIST</pattern>
+        <template>
+            Data Scientists use tools such as Jupyter Notebook, pandas, scikit-learn, Tableau, and SQL databases.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JOB OUTLOOK FOR DATA SCIENTIST</pattern>
+        <template>
+            Data science is one of the fastest-growing fields. 
+            Demand is high across tech, healthcare, finance, and more. 
+            Salaries are competitive and opportunities for specialization are vast. 
+        </template>
+    </category>
+	
+	<category>
+	    <pattern>DATA SCIENTIST</pattern>
+	    <template><srai>ABOUT DATA SCIENTIST</srai></template>
+	   </category>
+	
+	<category>
+	    <pattern>I LIKE WORKING WITH DATA</pattern>
+	    <template><srai>ABOUT DATA SCIENTIST</srai></template>
+	</category>
+</aiml>

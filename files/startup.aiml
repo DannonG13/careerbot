@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>HELLO</pattern>
+	    <template>
+	        Hello! I'm your virtual career advisor. 
+	    <br/>Let's get started! What kind of computing work do you enjoy?
+	    <br/><br/><b>Try one of these:</b>
+	    <br/>-I like building software.
+	    <br/>-I like coding.
+	    <br/>-I enjoy solving problems with data.
+	    <br/>-I like working with data.
+	    <br/>-I'm interested in design and user experience.
+	    <br/>-I want to manage projects.
+	    <br/>-I enjoy leading teams.
+	    <br/>-I like keeping systems secure.
+	    <br/>-I am interested in cybersecurity.
+	    <br/><br/> At anytime just say "Start Over" to see the list again or tell me what career you would like to hear about.
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>HI</pattern>
+	    <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>HEY</pattern>
+	    <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+        <pattern>START OVER</pattern>
+        <template>Of course. Lets begin again. What kind of computing work do you enjoy?
+	    <br/><br/><b>Try one of these:</b>
+	    <br/>-I like building software.
+	    <br/>-I like coding.
+	    <br/>-I enjoy solving problems with data.
+	    <br/>-I like working with data.
+	    <br/>-I'm interested in design and user experience.
+	    <br/>-I want to manage projects.
+	    <br/>-I enjoy leading teams.
+	    <br/>-I like keeping systems secure.
+	    <br/>-I am interested in cybersecurity.</template>
+    </category>
+</aiml>
